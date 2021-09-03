@@ -14,18 +14,10 @@
 		7E8F09C626E1B74800943518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F09C526E1B74800943518 /* Assets.xcassets */; };
 		7E8F09C926E1B74800943518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F09C726E1B74800943518 /* LaunchScreen.storyboard */; };
 		7E8F09D426E1B74800943518 /* MoxturePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */; };
-		7E8F09DF26E1B74800943518 /* MoxturePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09DE26E1B74800943518 /* MoxturePracticeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7E8F09D026E1B74800943518 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7E8F09B126E1B74600943518 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E8F09B826E1B74600943518;
-			remoteInfo = MoxturePractice;
-		};
-		7E8F09DB26E1B74800943518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7E8F09B126E1B74600943518 /* Project object */;
 			proxyType = 1;
@@ -46,7 +38,6 @@
 		7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxturePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoxturePracticeTests.swift; sourceTree = "<group>"; };
 		7E8F09D526E1B74800943518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxturePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8F09DE26E1B74800943518 /* MoxturePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoxturePracticeUITests.swift; sourceTree = "<group>"; };
 		7E8F09E026E1B74800943518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7E8F09CC26E1B74800943518 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E8F09D726E1B74800943518 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,7 +75,6 @@
 			children = (
 				7E8F09B926E1B74600943518 /* MoxturePractice.app */,
 				7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */,
-				7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,24 +149,6 @@
 			productReference = 7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7E8F09D926E1B74800943518 /* MoxturePracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E8F09E926E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePracticeUITests" */;
-			buildPhases = (
-				7E8F09D626E1B74800943518 /* Sources */,
-				7E8F09D726E1B74800943518 /* Frameworks */,
-				7E8F09D826E1B74800943518 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E8F09DC26E1B74800943518 /* PBXTargetDependency */,
-			);
-			name = MoxturePracticeUITests;
-			productName = MoxturePracticeUITests;
-			productReference = 7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +162,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					7E8F09CE26E1B74800943518 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 7E8F09B826E1B74600943518;
-					};
-					7E8F09D926E1B74800943518 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 7E8F09B826E1B74600943518;
 					};
@@ -221,7 +182,6 @@
 			targets = (
 				7E8F09B826E1B74600943518 /* MoxturePractice */,
 				7E8F09CE26E1B74800943518 /* MoxturePracticeTests */,
-				7E8F09D926E1B74800943518 /* MoxturePracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +198,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7E8F09CD26E1B74800943518 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E8F09D826E1B74800943518 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,14 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E8F09D626E1B74800943518 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E8F09DF26E1B74800943518 /* MoxturePracticeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +232,6 @@
 			isa = PBXTargetDependency;
 			target = 7E8F09B826E1B74600943518 /* MoxturePractice */;
 			targetProxy = 7E8F09D026E1B74800943518 /* PBXContainerItemProxy */;
-		};
-		7E8F09DC26E1B74800943518 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7E8F09B826E1B74600943518 /* MoxturePractice */;
-			targetProxy = 7E8F09DB26E1B74800943518 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +453,6 @@
 			};
 			name = Release;
 		};
-		7E8F09EA26E1B74800943518 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49U98977HL;
-				INFOPLIST_FILE = MoxturePracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ryanrange.MoxturePracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MoxturePractice;
-			};
-			name = Debug;
-		};
-		7E8F09EB26E1B74800943518 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49U98977HL;
-				INFOPLIST_FILE = MoxturePracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ryanrange.MoxturePracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MoxturePractice;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +479,6 @@
 			buildConfigurations = (
 				7E8F09E726E1B74800943518 /* Debug */,
 				7E8F09E826E1B74800943518 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E8F09E926E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E8F09EA26E1B74800943518 /* Debug */,
-				7E8F09EB26E1B74800943518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
