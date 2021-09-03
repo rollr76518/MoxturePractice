@@ -18,6 +18,8 @@
 		7E8F09D426E1B74800943518 /* MoxturePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */; };
 		7E8F09F626E1C2D000943518 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F526E1C2D000943518 /* Counter.swift */; };
 		7E8F09F826E1C2DA00943518 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F726E1C2DA00943518 /* CounterTests.swift */; };
+		7E8F09FA26E1C32E00943518 /* ExampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */; };
+		7E8F09FC26E1C35400943518 /* ExampleAViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		7E8F09E026E1B74800943518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E8F09F526E1C2D000943518 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		7E8F09F726E1C2DA00943518 /* CounterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
+		7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAViewController.swift; sourceTree = "<group>"; };
+		7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAViewControllerTests.swift; sourceTree = "<group>"; };
 		89F473FA54E27EC17B04EE0A /* Pods-MoxturePracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxturePracticeTests.release.xcconfig"; path = "Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EC02306178BD300E13537D1 /* Pods_MoxturePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxturePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F55534736378B8BCA360F6 /* Pods_MoxturePracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxturePracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,7 @@
 				7E8F09BC26E1B74600943518 /* AppDelegate.swift */,
 				7E8F09C526E1B74800943518 /* Assets.xcassets */,
 				7E8F09F526E1C2D000943518 /* Counter.swift */,
+				7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */,
 				7E8F09CA26E1B74800943518 /* Info.plist */,
 				7E8F09C726E1B74800943518 /* LaunchScreen.storyboard */,
 				7E8F09C226E1B74600943518 /* Main.storyboard */,
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				7E8F09F726E1C2DA00943518 /* CounterTests.swift */,
+				7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */,
 				7E8F09D526E1B74800943518 /* Info.plist */,
 				7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */,
 			);
@@ -319,6 +325,7 @@
 				7E8F09F626E1C2D000943518 /* Counter.swift in Sources */,
 				7E8F09C126E1B74600943518 /* ViewController.swift in Sources */,
 				7E8F09BD26E1B74600943518 /* AppDelegate.swift in Sources */,
+				7E8F09FA26E1C32E00943518 /* ExampleAViewController.swift in Sources */,
 				7E8F09BF26E1B74600943518 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +336,7 @@
 			files = (
 				7E8F09F826E1C2DA00943518 /* CounterTests.swift in Sources */,
 				7E8F09D426E1B74800943518 /* MoxturePracticeTests.swift in Sources */,
+				7E8F09FC26E1C35400943518 /* ExampleAViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
