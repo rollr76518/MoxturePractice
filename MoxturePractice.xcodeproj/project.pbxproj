@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161AC67016EFE0A2A51DBAEE /* Pods_MoxturePracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F55534736378B8BCA360F6 /* Pods_MoxturePracticeTests.framework */; };
+		5385049371AD9EE7116BA5B5 /* Pods_MoxturePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC02306178BD300E13537D1 /* Pods_MoxturePractice.framework */; };
 		7E8F09BD26E1B74600943518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09BC26E1B74600943518 /* AppDelegate.swift */; };
 		7E8F09BF26E1B74600943518 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09BE26E1B74600943518 /* SceneDelegate.swift */; };
 		7E8F09C126E1B74600943518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09C026E1B74600943518 /* ViewController.swift */; };
@@ -14,18 +16,16 @@
 		7E8F09C626E1B74800943518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F09C526E1B74800943518 /* Assets.xcassets */; };
 		7E8F09C926E1B74800943518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F09C726E1B74800943518 /* LaunchScreen.storyboard */; };
 		7E8F09D426E1B74800943518 /* MoxturePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */; };
-		7E8F09DF26E1B74800943518 /* MoxturePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09DE26E1B74800943518 /* MoxturePracticeUITests.swift */; };
+		7E8F09F626E1C2D000943518 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F526E1C2D000943518 /* Counter.swift */; };
+		7E8F09F826E1C2DA00943518 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F726E1C2DA00943518 /* CounterTests.swift */; };
+		7E8F09FA26E1C32E00943518 /* ExampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */; };
+		7E8F09FC26E1C35400943518 /* ExampleAViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */; };
+		7E8F09FE26E1C3CC00943518 /* ExampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09FD26E1C3CC00943518 /* ExampleBViewController.swift */; };
+		7E8F0A0026E1C3F300943518 /* ExampleBViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F09FF26E1C3F300943518 /* ExampleBViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7E8F09D026E1B74800943518 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7E8F09B126E1B74600943518 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E8F09B826E1B74600943518;
-			remoteInfo = MoxturePractice;
-		};
-		7E8F09DB26E1B74800943518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7E8F09B126E1B74600943518 /* Project object */;
 			proxyType = 1;
@@ -46,9 +46,20 @@
 		7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxturePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoxturePracticeTests.swift; sourceTree = "<group>"; };
 		7E8F09D526E1B74800943518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxturePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8F09DE26E1B74800943518 /* MoxturePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoxturePracticeUITests.swift; sourceTree = "<group>"; };
 		7E8F09E026E1B74800943518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8F09F526E1C2D000943518 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		7E8F09F726E1C2DA00943518 /* CounterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
+		7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAViewController.swift; sourceTree = "<group>"; };
+		7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAViewControllerTests.swift; sourceTree = "<group>"; };
+		7E8F09FD26E1C3CC00943518 /* ExampleBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBViewController.swift; sourceTree = "<group>"; };
+		7E8F09FF26E1C3F300943518 /* ExampleBViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBViewControllerTests.swift; sourceTree = "<group>"; };
+		89F473FA54E27EC17B04EE0A /* Pods-MoxturePracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxturePracticeTests.release.xcconfig"; path = "Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC02306178BD300E13537D1 /* Pods_MoxturePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxturePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F55534736378B8BCA360F6 /* Pods_MoxturePracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxturePracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1C5A656D185AAF08A26359 /* Pods-MoxturePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxturePractice.release.xcconfig"; path = "Target Support Files/Pods-MoxturePractice/Pods-MoxturePractice.release.xcconfig"; sourceTree = "<group>"; };
+		C2C4DCDBE16E79656004B71B /* Pods-MoxturePracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxturePracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51E43B8F3968B4691FB6C69 /* Pods-MoxturePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxturePractice.debug.xcconfig"; path = "Target Support Files/Pods-MoxturePractice/Pods-MoxturePractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5385049371AD9EE7116BA5B5 /* Pods_MoxturePractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,19 +75,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E8F09D726E1B74800943518 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				161AC67016EFE0A2A51DBAEE /* Pods_MoxturePracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5702C8DD16A6C05EC4328E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D51E43B8F3968B4691FB6C69 /* Pods-MoxturePractice.debug.xcconfig */,
+				9F1C5A656D185AAF08A26359 /* Pods-MoxturePractice.release.xcconfig */,
+				C2C4DCDBE16E79656004B71B /* Pods-MoxturePracticeTests.debug.xcconfig */,
+				89F473FA54E27EC17B04EE0A /* Pods-MoxturePracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DF2C42D74BBC0E877B75294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC02306178BD300E13537D1 /* Pods_MoxturePractice.framework */,
+				90F55534736378B8BCA360F6 /* Pods_MoxturePracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E8F09B026E1B74600943518 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,8 @@
 				7E8F09D226E1B74800943518 /* MoxturePracticeTests */,
 				7E8F09DD26E1B74800943518 /* MoxturePracticeUITests */,
 				7E8F09BA26E1B74600943518 /* Products */,
+				1A5702C8DD16A6C05EC4328E /* Pods */,
+				4DF2C42D74BBC0E877B75294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +119,6 @@
 			children = (
 				7E8F09B926E1B74600943518 /* MoxturePractice.app */,
 				7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */,
-				7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,12 +127,15 @@
 			isa = PBXGroup;
 			children = (
 				7E8F09BC26E1B74600943518 /* AppDelegate.swift */,
+				7E8F09C526E1B74800943518 /* Assets.xcassets */,
+				7E8F09F526E1C2D000943518 /* Counter.swift */,
+				7E8F09F926E1C32E00943518 /* ExampleAViewController.swift */,
+				7E8F09FD26E1C3CC00943518 /* ExampleBViewController.swift */,
+				7E8F09CA26E1B74800943518 /* Info.plist */,
+				7E8F09C726E1B74800943518 /* LaunchScreen.storyboard */,
+				7E8F09C226E1B74600943518 /* Main.storyboard */,
 				7E8F09BE26E1B74600943518 /* SceneDelegate.swift */,
 				7E8F09C026E1B74600943518 /* ViewController.swift */,
-				7E8F09C226E1B74600943518 /* Main.storyboard */,
-				7E8F09C526E1B74800943518 /* Assets.xcassets */,
-				7E8F09C726E1B74800943518 /* LaunchScreen.storyboard */,
-				7E8F09CA26E1B74800943518 /* Info.plist */,
 			);
 			path = MoxturePractice;
 			sourceTree = "<group>";
@@ -113,8 +143,11 @@
 		7E8F09D226E1B74800943518 /* MoxturePracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */,
+				7E8F09F726E1C2DA00943518 /* CounterTests.swift */,
+				7E8F09FB26E1C35400943518 /* ExampleAViewControllerTests.swift */,
+				7E8F09FF26E1C3F300943518 /* ExampleBViewControllerTests.swift */,
 				7E8F09D526E1B74800943518 /* Info.plist */,
+				7E8F09D326E1B74800943518 /* MoxturePracticeTests.swift */,
 			);
 			path = MoxturePracticeTests;
 			sourceTree = "<group>";
@@ -135,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E8F09E326E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePractice" */;
 			buildPhases = (
+				605FA5279492E7F14692D58F /* [CP] Check Pods Manifest.lock */,
 				7E8F09B526E1B74600943518 /* Sources */,
 				7E8F09B626E1B74600943518 /* Frameworks */,
 				7E8F09B726E1B74600943518 /* Resources */,
@@ -152,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E8F09E626E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePracticeTests" */;
 			buildPhases = (
+				9818043268608CFB17A5BE05 /* [CP] Check Pods Manifest.lock */,
 				7E8F09CB26E1B74800943518 /* Sources */,
 				7E8F09CC26E1B74800943518 /* Frameworks */,
 				7E8F09CD26E1B74800943518 /* Resources */,
+				7D1E7C8AEA18338EBD86B489 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,24 +201,6 @@
 			productName = MoxturePracticeTests;
 			productReference = 7E8F09CF26E1B74800943518 /* MoxturePracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7E8F09D926E1B74800943518 /* MoxturePracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E8F09E926E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePracticeUITests" */;
-			buildPhases = (
-				7E8F09D626E1B74800943518 /* Sources */,
-				7E8F09D726E1B74800943518 /* Frameworks */,
-				7E8F09D826E1B74800943518 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E8F09DC26E1B74800943518 /* PBXTargetDependency */,
-			);
-			name = MoxturePracticeUITests;
-			productName = MoxturePracticeUITests;
-			productReference = 7E8F09DA26E1B74800943518 /* MoxturePracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +215,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					7E8F09CE26E1B74800943518 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 7E8F09B826E1B74600943518;
-					};
-					7E8F09D926E1B74800943518 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 7E8F09B826E1B74600943518;
 					};
@@ -221,7 +235,6 @@
 			targets = (
 				7E8F09B826E1B74600943518 /* MoxturePractice */,
 				7E8F09CE26E1B74800943518 /* MoxturePracticeTests */,
-				7E8F09D926E1B74800943518 /* MoxturePracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,22 +257,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E8F09D826E1B74800943518 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		605FA5279492E7F14692D58F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoxturePractice-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		7D1E7C8AEA18338EBD86B489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoxturePracticeTests/Pods-MoxturePracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9818043268608CFB17A5BE05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoxturePracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E8F09B526E1B74600943518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8F09F626E1C2D000943518 /* Counter.swift in Sources */,
 				7E8F09C126E1B74600943518 /* ViewController.swift in Sources */,
 				7E8F09BD26E1B74600943518 /* AppDelegate.swift in Sources */,
+				7E8F09FA26E1C32E00943518 /* ExampleAViewController.swift in Sources */,
+				7E8F09FE26E1C3CC00943518 /* ExampleBViewController.swift in Sources */,
 				7E8F09BF26E1B74600943518 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,15 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8F0A0026E1C3F300943518 /* ExampleBViewControllerTests.swift in Sources */,
+				7E8F09F826E1C2DA00943518 /* CounterTests.swift in Sources */,
 				7E8F09D426E1B74800943518 /* MoxturePracticeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E8F09D626E1B74800943518 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E8F09DF26E1B74800943518 /* MoxturePracticeUITests.swift in Sources */,
+				7E8F09FC26E1C35400943518 /* ExampleAViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +355,6 @@
 			isa = PBXTargetDependency;
 			target = 7E8F09B826E1B74600943518 /* MoxturePractice */;
 			targetProxy = 7E8F09D026E1B74800943518 /* PBXContainerItemProxy */;
-		};
-		7E8F09DC26E1B74800943518 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7E8F09B826E1B74600943518 /* MoxturePractice */;
-			targetProxy = 7E8F09DB26E1B74800943518 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,6 +496,7 @@
 		};
 		7E8F09E426E1B74800943518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51E43B8F3968B4691FB6C69 /* Pods-MoxturePractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +516,7 @@
 		};
 		7E8F09E526E1B74800943518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1C5A656D185AAF08A26359 /* Pods-MoxturePractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +536,7 @@
 		};
 		7E8F09E726E1B74800943518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C4DCDBE16E79656004B71B /* Pods-MoxturePracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +559,7 @@
 		};
 		7E8F09E826E1B74800943518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F473FA54E27EC17B04EE0A /* Pods-MoxturePracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,46 +577,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoxturePractice.app/MoxturePractice";
-			};
-			name = Release;
-		};
-		7E8F09EA26E1B74800943518 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49U98977HL;
-				INFOPLIST_FILE = MoxturePracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ryanrange.MoxturePracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MoxturePractice;
-			};
-			name = Debug;
-		};
-		7E8F09EB26E1B74800943518 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49U98977HL;
-				INFOPLIST_FILE = MoxturePracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ryanrange.MoxturePracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MoxturePractice;
 			};
 			name = Release;
 		};
@@ -579,15 +606,6 @@
 			buildConfigurations = (
 				7E8F09E726E1B74800943518 /* Debug */,
 				7E8F09E826E1B74800943518 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E8F09E926E1B74800943518 /* Build configuration list for PBXNativeTarget "MoxturePracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E8F09EA26E1B74800943518 /* Debug */,
-				7E8F09EB26E1B74800943518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
