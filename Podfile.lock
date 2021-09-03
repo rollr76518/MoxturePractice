@@ -1,0 +1,16 @@
+PODS:
+  - Moxture (1.0.1)
+
+DEPENDENCIES:
+  - Moxture
+
+SPEC REPOS:
+  trunk:
+    - Moxture
+
+SPEC CHECKSUMS:
+  Moxture: 8d4db67a25a1c60eed9ef777fabf8a212782c10c
+
+PODFILE CHECKSUM: e98da7c71a6c8a4df603f8196a6a61cc5cfb00dd
+
+COCOAPODS: 1.10.1
